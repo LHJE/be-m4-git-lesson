@@ -6,6 +6,9 @@ category1 = Category.create(title: 'Poisonous')
 category2 = Category.create(title: 'Tropical')
 category3 = Category.create(title: "Cacti")
 category4 = Category.create(title: "Shrubbery")
+category5 = Category.create(title: "Shrubbery 2")
+category6 = Category.create(title: "Shrubbery 3")
+categorey7 = Category.create(title: "Shrubbery: the return")
 
 category1.items.create(title: 'Foxglove',        description: "Bell Shaped Flowers",             price: 10.95, image: File.new("#{Rails.root}/app/assets/images/foxglove.jpeg"))
 category1.items.create(title: 'Hemlock',         description: 'Charlie Brown Christmas Tree',    price: 20.95, image: File.new("#{Rails.root}/app/assets/images/hemlock.jpg"))
@@ -28,4 +31,3 @@ category4.items.create(title: 'Common Shrub',    description: 'Grows Very Quickl
 category3.items.create(title: 'Cucumber Cactus', description: 'Beware the spikes',               price: 20.55, image: File.new("#{Rails.root}/app/assets/images/4.jpg"))
 category3.items.create(title: 'Bloomin Cactus',  description: 'Purple Flowers Bloom Year Round', price: 12.45, image: File.new("#{Rails.root}/app/assets/images/3.jpg"))
 category3.items.create(title: 'Bubble Cactus',   description: 'Pink Flower on Top',              price: 22.45, image: File.new("#{Rails.root}/app/assets/images/2.jpg"))
-
